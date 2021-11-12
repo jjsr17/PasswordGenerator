@@ -4,3 +4,7 @@
 
     In order to use such file, you would click on the generate password button in order for a password to be generated. Once the button is clicked several menus will appear thus enabling certain types of letters and numbers into the random generator.
     At the end you will have a randomly generated password in the window.
+
+    The main motivation was to create a password generator that would take several parameters in its password generation.It helps the problem of secure password generation.By providing a user base with a methodology to generate random password with certain parameterization the user can create many passwords with a click of a button.
+
+    I learned that creating programs is not a necesarrily laborious process and that coding can be fun when approached a certain way.
