@@ -17,11 +17,11 @@ let isSpecial;
 
 let passwordLength = parseInt(prompt("Choose Length of password (8 - 128 characters)"));
 if(Number.isNaN(passwordLength)){
-  alert("Password Length must be an interger, please try again");
+  //alert("Password Length must be an interger, please try again");
   return "Password Length must be an interger, please try again ";
 }
   if(passwordLength < 8 || passwordLength > 128){
-    alert("Length not valid.Length must be between 8 and 128, please try again")
+   // alert("Length not valid.Length must be between 8 and 128, please try again")
     return "Length not valid.Length must be between 8 and 128, please try again";
   }else{
      firstSign = alert("Choose whether to include the following character types in your password.")
@@ -46,7 +46,7 @@ if(Number.isNaN(passwordLength)){
   }
   if (isLowerCase != "Y"  && isUpperCase != "Y" && isNumber != "Y"  && isSpecial != "Y" )
   {
-    alert("You must at least have one type of character available, please try again")
+   // alert("You must at least have one type of character available, please try again")
     return "You must at least have one type of character available, please try again";
   }
   console.log("characters",characters);
