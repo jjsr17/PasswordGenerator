@@ -18,3 +18,7 @@
 ## Github repo
 
 The code for this app can be found here [app] (https://github.com/jjsr17/PasswordGenerator)
+
+## App Thumbnail
+
+![App Thumbnail](./Deployed-App-thumbnail.png)]
